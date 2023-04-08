@@ -21,9 +21,19 @@ public class meteorMovEasy : MonoBehaviour
     {
         if(collision.gameObject.tag == "bullet")
         {
-            animE.SetTrigger("explosionEasy");
-
             
+            animE.SetTrigger("explosionEasy");
+            Destroy(collision.gameObject);
+
         }
+        if (collision.gameObject.tag == "player")
+        {
+
+            Destroy(gameObject);
+
+        }
+
+
     }
+
 }

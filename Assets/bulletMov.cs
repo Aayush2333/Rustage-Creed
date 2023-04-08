@@ -25,8 +25,9 @@ public class bulletMov : MonoBehaviour
     {
         if (collision.gameObject.tag == "meteors")
         {
-            Destroy(gameObject);
+            
             scoreSystem.score += 5;
+            Destroy(gameObject);
         }
 
     }

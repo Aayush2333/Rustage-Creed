@@ -8,6 +8,10 @@ TagManager:
   - meteorHard
   - bullet
   - bTag
+  - powerUps
+  - tripleshoot
+  - shield
+  - playerShield
   layers:
   - Default
   - TransparentFX
