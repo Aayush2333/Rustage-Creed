@@ -18,3 +18,4 @@ public class bgScrolling : MonoBehaviour
         mr.material.mainTextureOffset = new Vector2(0, speed * Time.time);
     }
 }
+//mainTextureOffset for material
